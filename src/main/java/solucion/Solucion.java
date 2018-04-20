@@ -2,12 +2,9 @@ package solucion;
 
 public class Solucion {
     /**
-     * COMENTARIO INCORRECTO:
-     * 
      * Método que crea 6 Nodos cada uno con una letra diferente y
      * luego a cada uno en su propiedad next le asigna en siguiente.
-     * 
-     * @return Node Regresa el primero que se creó.
+     * @return Node Regresa el primer nodo creado.
      */
     private Node build() {
         Node n1 = new Node("A");

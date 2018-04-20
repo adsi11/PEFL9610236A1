@@ -19,11 +19,11 @@ public class Node {
     }
     
     /**
-     * 	Método
+     * 	Método que invierte la lista enlazada
      *	@return 
      */
     public Node gus() {
-        if(next == null) 
+        if(next == null) //en caso de que el siguiente esté vacío termina el método
         	return this;
         Node otro = next;
         next = null;
