@@ -26,9 +26,9 @@ public class Node {
         if(next == null) //en caso de que el siguiente esté vacío termina el método
         	return this;
         Node otro = next;
-        next = null;
+        next = null; //Al proximo nodo le asignamos un valor nulo
         
-        Node tavo = otro.gus();
+        Node tavo = otro.gus(); //Llamamnos recursivamente al método
         otro.next = this;
         return tavo;
     }
